@@ -10,39 +10,29 @@ The one repo that will make MongoDB integration with NextJS Simple!!! This repo 
   
 Click for video:
 
-<a href="https://youtu.be/adD83Y38NS8" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
+<a href="https://youtu.be/lbAp42VM8a0" target="_blank"><img src="https://github.com/net2devcrypto/misc/blob/main/ytlogo2.png" width="150" height="40"></a> 
 
 Steps:
 
-1-Create an new NextJS app:
+1-Create a new NextJS app:
 
 ```shell
-npx create-next-app defiswap
+npx create-next-app mongo
 ```
 
 2- Install Dependencies:
 
 ```shell
-cd defiswap
-npm i @nextui-org/react web3 web3modal ethers alchemy-sdk sf-font
-npm i --save-dev @types/react
-npm i --save-dev @types/qs
+cd mongo
+npm i axios
+npm i dotenv
 ```
 
 3- Replace all files and folders in your project with the ones attached to this repo.
 
-Add all files and folders to the root project directory "defiswap", overwrite when prompted.
+Add all files and folders to the root project directory "mongo", overwrite when prompted.
 
-4- Create a new Alchemy API App for Ethereum Mainnet and update the API Key field with your
-
-Alchemy API Key in the defiswap.js file
-
-```shell
- const config = {
-      apiKey: "PLACE YOUR API KEY",
-      network: Network.ETH_MAINNET,
-    };
-```
+4- Create a new MongoDB API Key and update .env file with the key provided.
 
 Save File after updating!
 
@@ -52,3 +42,4 @@ Save File after updating!
 ```shell
 npm run dev
 ```
+Follow the video tutorial for explanations and guidance!
