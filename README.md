@@ -34,6 +34,8 @@ Add all files and folders to the root project directory "mongo", overwrite when 
 
 4- Create a new MongoDB API Key and update .env file with the key provided.
 
+Refer to 12:01 section in the tutorial!
+
 Save File after updating!
 
 
